@@ -1,0 +1,63 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box; 
+  }
+  body{
+      font-family: times,serif;
+      color: white;
+      background-color: black;
+  }
+  .container{
+      max-width: 90rem;
+      margin: 2rem auto;
+      padding: 0px 2rem;
+  }
+  .header{
+      padding: 4rem;
+      margin: 1rem 0px;
+      text-align: center;
+  }
+  .header > .title{
+      margin-bottom: 2rem;
+      font-size: 3rem;    
+  }
+  .header > .description{
+      margin-top: 0.5rem;
+      text-align: center; /* Adjust the margin as needed */
+  }
+  .tribute{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 78rem;
+      margin: 30px auto;
+      background-color: white;
+      color: black;
+      align-items: center;
+      padding: 0px 0px 0px 1rem;
+  }
+  
+  .tribute blockquote{
+      text-align: center;
+      font-size: 30px;
+  }
+  .tribute img{
+      max-width: 100%;
+  }
+  .bio{
+      margin: 2rem auto;
+      padding: opx 0.5rem;
+      max-width: 40rem;
+  }
+  .bio > h2{
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+      line-height: 1.2;
+  }
+  .bio > p{
+      font-size: 1.2rem;
+      line-height: 1.4;
+  }
+  .bio > hr{
+      margin-top: 2rem;
+  }
